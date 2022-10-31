@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/anandsion111/testInternal'
   spec.source       = { 
     :git => 'https://github.com/anandsion111/testInternal', 
-    :branch => 'main',
+    :branch => 'master',
     :tag => spec.version.to_s  
   }
   spec.summary      = 'IOS SDK for Internal Testing'
