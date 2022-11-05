@@ -1,6 +1,6 @@
 //
 //  UserModal.swift
-//  iossdk
+//  testInternal
 //
 //  Created by Total Solution on 14/10/22.
 //

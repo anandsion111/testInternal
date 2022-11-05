@@ -1,6 +1,6 @@
 //
 //  AuthToken.swift
-//  iossdk
+//  testInternal
 //
 //  Created by Total Solution on 07/10/22.
 //

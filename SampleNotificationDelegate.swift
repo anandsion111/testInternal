@@ -1,6 +1,6 @@
 //
 //  SampleNotificationDelegate.swift
-//  iossdk
+//  testInternal
 //
 //  Created by Total Solution on 17/10/22.
 //
