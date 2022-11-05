@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   }
   spec.summary      = 'IOS SDK for Internal Testing'
   spec.source_files = '**/*.swift', '*.swift'
-  spec.swift_versions = '5.3.3'
+  spec.swift_versions = '5.0'
   spec.ios.deployment_target = '14.4'
   spec.dependency 'FirebaseMessaging', '~> 10.1.0'
  end
