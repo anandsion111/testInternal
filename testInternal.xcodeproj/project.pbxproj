@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,37 +19,9 @@
 		50A91AD4291600B400AD64F8 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A91AC8291600B300AD64F8 /* DeviceInfo.swift */; };
 		50A91AD5291600B400AD64F8 /* ManageUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A91AC9291600B300AD64F8 /* ManageUser.swift */; };
 		50A91AD6291600B400AD64F8 /* UserModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A91ACA291600B300AD64F8 /* UserModal.swift */; };
-		50A91BB0291630ED00AD64F8 /* testInternalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A91BAF291630ED00AD64F8 /* testInternalTests.swift */; };
-		50A91BB2291630EE00AD64F8 /* testInternal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EFAD122915FC53007F737D /* testInternal.framework */; platformFilter = ios; };
-		50A91BC62916324600AD64F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A91BC52916324600AD64F8 /* XCTest.framework */; };
-		50A91BC72916324600AD64F8 /* XCTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50A91BC52916324600AD64F8 /* XCTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		50EFAD172915FC53007F737D /* testInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EFAD152915FC53007F737D /* testInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E505108E6F1CB5B8BCDFDCE5 /* Pods_testInternal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA4988560069FAD378D64FCC /* Pods_testInternal.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		50A91BB3291630EE00AD64F8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 50EFAD092915FC53007F737D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 50EFAD112915FC53007F737D;
-			remoteInfo = testInternal;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		50A91BC82916324600AD64F8 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				50A91BC72916324600AD64F8 /* XCTest.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		50A91ABF291600B300AD64F8 /* SampleNotificationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleNotificationDelegate.swift; sourceTree = "<group>"; };
@@ -64,7 +36,6 @@
 		50A91AC8291600B300AD64F8 /* DeviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
 		50A91AC9291600B300AD64F8 /* ManageUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageUser.swift; sourceTree = "<group>"; };
 		50A91ACA291600B300AD64F8 /* UserModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModal.swift; sourceTree = "<group>"; };
-		50A91BAD291630ED00AD64F8 /* testInternalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testInternalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A91BAF291630ED00AD64F8 /* testInternalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testInternalTests.swift; sourceTree = "<group>"; };
 		50A91BB1291630EE00AD64F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50A91BC52916324600AD64F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -77,20 +48,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		50A91BAA291630ED00AD64F8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50A91BB2291630EE00AD64F8 /* testInternal.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		50EFAD0F2915FC53007F737D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E505108E6F1CB5B8BCDFDCE5 /* Pods_testInternal.framework in Frameworks */,
-				50A91BC62916324600AD64F8 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				50EFAD122915FC53007F737D /* testInternal.framework */,
-				50A91BAD291630ED00AD64F8 /* testInternalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -179,24 +140,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		50A91BAC291630ED00AD64F8 /* testInternalTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 50A91BB5291630EE00AD64F8 /* Build configuration list for PBXNativeTarget "testInternalTests" */;
-			buildPhases = (
-				50A91BA9291630ED00AD64F8 /* Sources */,
-				50A91BAA291630ED00AD64F8 /* Frameworks */,
-				50A91BAB291630ED00AD64F8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				50A91BB4291630EE00AD64F8 /* PBXTargetDependency */,
-			);
-			name = testInternalTests;
-			productName = testInternalTests;
-			productReference = 50A91BAD291630ED00AD64F8 /* testInternalTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		50EFAD112915FC53007F737D /* testInternal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50EFAD1A2915FC53007F737D /* Build configuration list for PBXNativeTarget "testInternal" */;
@@ -206,7 +149,6 @@
 				50EFAD0E2915FC53007F737D /* Sources */,
 				50EFAD0F2915FC53007F737D /* Frameworks */,
 				50EFAD102915FC53007F737D /* Resources */,
-				50A91BC82916324600AD64F8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,9 +168,6 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					50A91BAC291630ED00AD64F8 = {
-						CreatedOnToolsVersion = 12.4;
-					};
 					50EFAD112915FC53007F737D = {
 						CreatedOnToolsVersion = 12.4;
 						LastSwiftMigration = 1240;
@@ -249,19 +188,11 @@
 			projectRoot = "";
 			targets = (
 				50EFAD112915FC53007F737D /* testInternal */,
-				50A91BAC291630ED00AD64F8 /* testInternalTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		50A91BAB291630ED00AD64F8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		50EFAD102915FC53007F737D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,14 +228,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		50A91BA9291630ED00AD64F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50A91BB0291630ED00AD64F8 /* testInternalTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		50EFAD0E2915FC53007F737D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,51 +249,7 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		50A91BB4291630EE00AD64F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			platformFilter = ios;
-			target = 50EFAD112915FC53007F737D /* testInternal */;
-			targetProxy = 50A91BB3291630EE00AD64F8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		50A91BB6291630EE00AD64F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = testInternalTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.testInternalTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		50A91BB7291630EE00AD64F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = testInternalTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.testInternalTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		50EFAD182915FC53007F737D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -408,7 +287,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTABILITY = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -474,7 +353,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTABILITY = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -505,7 +384,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = testInternal/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -534,6 +413,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = testInternal/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -553,15 +433,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50A91BB5291630EE00AD64F8 /* Build configuration list for PBXNativeTarget "testInternalTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				50A91BB6291630EE00AD64F8 /* Debug */,
-				50A91BB7291630EE00AD64F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		50EFAD0C2915FC53007F737D /* Build configuration list for PBXProject "testInternal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
