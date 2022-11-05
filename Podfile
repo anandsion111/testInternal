@@ -8,4 +8,7 @@ target 'testInternal' do
   # Pods for testInternal
 pod 'FirebaseCore'
 pod 'FirebaseMessaging'
+target 'testInternalTests' do
+        inherit! :search_paths
+  end
 end
